@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #282c34;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container {
+    background: #3a3f4b;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+#timer {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.controls button {
+    background: #ff4500;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.controls button:hover {
+    background: #ff5722;
+}
+
+#cycles {
+    margin-top: 10px;
+}
