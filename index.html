@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div id="timer">25:00</div>
+        <div class="controls">
+            <button id="start">Старт</button>
+            <button id="pause">Пауза</button>
+            <button id="reset">Сброс</button>
+        </div>
+        <p id="cycles">Завершенные циклы: <span id="cycle-count">0</span></p>
+    </div>
+    <audio id="alarm" src="alarm.mp3"></audio> <!-- Добавляем звуковой сигнал -->
+    <script src="script.js"></script>
+</body>
+</html>
